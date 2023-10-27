@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 class Jeu {
-    private ArrayList<Personnage> equipeHeros = new ArrayList<>();
-    private ArrayList<Personnage> equipeMonstres = new ArrayList<>();
+    private final ArrayList<Personnage> equipeHeros = new ArrayList<>();
+    private final ArrayList<Personnage> equipeMonstres = new ArrayList<>();
 
     public void initialiserEquipes() {
         equipeHeros.add(new Personnage("Arthur", 30, new Arme("Excalibur", 10, 100, 1000)));
